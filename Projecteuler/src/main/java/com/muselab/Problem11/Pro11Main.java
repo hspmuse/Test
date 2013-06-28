@@ -10,13 +10,13 @@ public class Pro11Main {
 		int maxDiR = 0;
 		int maxDiL = 0;
 		
-		//maxRL = getMaxRightLeft();
-		//maxUD = getUpDown();
-		//maxDiR = getDiagonalR();
+		maxRL = getMaxRightLeft();
+		maxUD = getUpDown();
+		maxDiR = getDiagonalR();
 		maxDiL = getDiagonalL();
-		//System.out.println("maxRL=" + maxRL);
-		//System.out.println("maxUD=" + maxUD);
-		//System.out.println("maxDiR=" + maxDiR);
+		System.out.println("maxRL =" + maxRL);
+		System.out.println("maxUD =" + maxUD);
+		System.out.println("maxDiR=" + maxDiR);
 		System.out.println("maxDiL=" + maxDiL);
 	}
 	
@@ -36,12 +36,12 @@ public class Pro11Main {
 				if(!(maxValue>=value1  && maxValue>=value1)) {
 					if(value1>=value2) {
 						maxValue = value1;
-						System.out.println("RLi=" + i);
-						System.out.println("RLj=" + j);
+						//System.out.println("RLi=" + i);
+						//System.out.println("RLj=" + j);
 					} else {
 						maxValue = value2;
-						System.out.println("RLi=" + i);
-						System.out.println("RLj=" + j);
+						//System.out.println("RLi=" + i);
+						//System.out.println("RLj=" + j);
 					}
 				}
 //				System.out.println("value1=" + value1);
@@ -70,12 +70,12 @@ public class Pro11Main {
 				if(!(maxValue>=value1  && maxValue>=value1)) {
 					if(value1>=value2) {
 						maxValue = value1;
-						System.out.println("i=" + i);
-						System.out.println("j=" + j);
+						//System.out.println("i=" + i);
+						//System.out.println("j=" + j);
 					} else {
 						maxValue = value2;
-						System.out.println("i=" + i);
-						System.out.println("j=" + j);
+						//System.out.println("i=" + i);
+						//System.out.println("j=" + j);
 					}
 				}
 
@@ -102,12 +102,12 @@ public class Pro11Main {
 				if(!(maxValue>=value1  && maxValue>=value1)) {
 					if(value1>=value2) {
 						maxValue = value1;
-						System.out.println("RLi=" + i);
-						System.out.println("RLj=" + j);
+						//System.out.println("RLi=" + i);
+						//System.out.println("RLj=" + j);
 					} else {
 						maxValue = value2;
-						System.out.println("RLi=" + i);
-						System.out.println("RLj=" + j);
+						//System.out.println("RLi=" + i);
+						//System.out.println("RLj=" + j);
 					}
 				}
 //				System.out.println("value1=" + value1);
@@ -133,12 +133,12 @@ public class Pro11Main {
 				if(!(maxValue>=value1  && maxValue>=value1)) {
 					if(value1>=value2) {
 						maxValue = value1;
-						System.out.println("RLi=" + i);
-						System.out.println("RLj=" + j);
+						//System.out.println("RLi=" + i);
+						//System.out.println("RLj=" + j);
 					} else {
 						maxValue = value2;
-						System.out.println("RLi=" + i);
-						System.out.println("RLj=" + j);
+						//System.out.println("RLi=" + i);
+						//System.out.println("RLj=" + j);
 					}
 				}
 //				System.out.println("value1=" + value1);
