@@ -6,19 +6,19 @@ public class UserMain {
 
 	public static void main(String[] args) throws ClassNotFoundException, SQLException {
 		
-		UserDao dao = new UserDao();
+		NUserDao ndao = new NUserDao();
 		
 		User user = new User();
 		
-		user.setId("sphong");
+		user.setId("sphong12");
 		user.setName("호호");
 		user.setPassword("aaa");
 		
-		dao.add(user);
+		ndao.add(user);
 		
 		System.out.println(user.getId() + " register sucess!!");
 		
-		User user2 = dao.get(user.getId());
+		User user2 = ndao.get(user.getId());
 		
 		System.out.println(user2.getName());
 		
