@@ -12,7 +12,7 @@ public class UserDaoTest {
 		
 		User user = new User();
 		
-		user.setId("sphong1332");
+		user.setId("sphong12232");
 		user.setName("호호");
 		user.setPassword("aaa");
 		
