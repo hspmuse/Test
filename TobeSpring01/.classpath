@@ -3,5 +3,26 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
 	<classpathentry kind="lib" path="D:/Muselab/sqlite/sqlite-jdbc-3.5.7.jar"/>
+	<classpathentry kind="lib" path="D:/Muselab/GitHub/lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/Muselab/GitHub/lib/spring-aop-3.2.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Muselab/GitHub/lib/spring-aspects-3.2.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Muselab/GitHub/lib/spring-beans-3.2.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Muselab/GitHub/lib/spring-build-src-3.2.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Muselab/GitHub/lib/spring-context-3.2.2.RELEASE.jar" sourcepath="C:/Documents and Settings/hira/.m2/repository/org/springframework/spring-context/3.2.2.RELEASE/spring-context-3.2.2.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Muselab/GitHub/lib/spring-context-support-3.2.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Muselab/GitHub/lib/spring-core-3.2.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Muselab/GitHub/lib/spring-expression-3.2.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Muselab/GitHub/lib/spring-instrument-3.2.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Muselab/GitHub/lib/spring-instrument-tomcat-3.2.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Muselab/GitHub/lib/spring-jdbc-3.2.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Muselab/GitHub/lib/spring-jms-3.2.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Muselab/GitHub/lib/spring-orm-3.2.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Muselab/GitHub/lib/spring-oxm-3.2.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Muselab/GitHub/lib/spring-struts-3.2.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Muselab/GitHub/lib/spring-test-3.2.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Muselab/GitHub/lib/spring-tx-3.2.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Muselab/GitHub/lib/spring-web-3.2.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Muselab/GitHub/lib/spring-webmvc-3.2.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Muselab/GitHub/lib/spring-webmvc-portlet-3.2.2.RELEASE.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -4,7 +4,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-public class NConnectionMaker implements ConnectionMaker {
+public class DConnectionMaker implements ConnectionMaker {
 	
 	public Connection makeConnection() throws ClassNotFoundException, SQLException {
 		Class.forName("org.sqlite.JDBC");
