@@ -2,23 +2,25 @@ package com.muselab.user;
 
 import java.sql.SQLException;
 
-public class UserMain {
+public class UserDaoTest {
 
 	public static void main(String[] args) throws ClassNotFoundException, SQLException {
 		
-		NUserDao ndao = new NUserDao();
+		ConnectionMaker connectionMaker = new NConnectionMaker();
+		
+		UserDao dao = new UserDao(connectionMaker);
 		
 		User user = new User();
 		
-		user.setId("sphong12");
+		user.setId("sphong1332");
 		user.setName("호호");
 		user.setPassword("aaa");
 		
-		ndao.add(user);
+		dao.add(user);
 		
 		System.out.println(user.getId() + " register sucess!!");
 		
-		User user2 = ndao.get(user.getId());
+		User user2 = dao.get(user.getId());
 		
 		System.out.println(user2.getName());
 		
